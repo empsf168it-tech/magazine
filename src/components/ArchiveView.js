@@ -145,8 +145,8 @@ export function renderArchiveView(containerEl, onNavigate, showToast) {
         </div>
 
         <div class="boxset-visual-preview">
-          <img src="/assets/vanta_cover_023.png" alt="Boxset Preview" class="boxset-img-1" />
-          <img src="/assets/vanta_cover_024.png" alt="Boxset Preview" class="boxset-img-2" />
+          <img src="assets/vanta_cover_023.png" alt="Boxset Preview" class="boxset-img-1" />
+          <img src="assets/vanta_cover_024.png" alt="Boxset Preview" class="boxset-img-2" />
         </div>
       </div>
     </section>

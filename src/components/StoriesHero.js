@@ -60,7 +60,7 @@ export function renderStoriesHero(containerEl, onNavigate) {
 
               <!-- Main Mockup Screen Content -->
               <div class="mockup-screen-body">
-                <img src="/assets/vanta_featured_story.png" alt="Featured Digital Reader" class="mockup-hero-img" />
+                <img src="assets/vanta_featured_story.png" alt="Featured Digital Reader" class="mockup-hero-img" />
                 <div class="mockup-screen-overlay">
                   <span class="category-badge">COVER ESSAY</span>
                   <h3 class="mockup-article-title">WHY EVERYTHING IS BECOMING DESIGN</h3>
@@ -73,7 +73,7 @@ export function renderStoriesHero(containerEl, onNavigate) {
 
               <!-- Secondary Floating Reader Layer behind Mockup -->
               <div class="mockup-layer-back">
-                <img src="/assets/vanta_cover_024.png" alt="Issue 024" />
+                <img src="assets/vanta_cover_024.png" alt="Issue 024" />
               </div>
             </div>
           </div>

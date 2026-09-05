@@ -81,7 +81,7 @@ export function renderHero3D(containerEl, onNavigate) {
   // Mount Priority 1: Three.js 3D Magazine
   const threeMount = containerEl.querySelector('#three-magazine-container');
   if (threeMount) {
-    createThreeHeroMagazine(threeMount, '/assets/vanta_cover_024.png');
+    createThreeHeroMagazine(threeMount, 'assets/vanta_cover_024.png');
   }
 
   // Run Priority 2: GSAP Masked Line Reveal Animation

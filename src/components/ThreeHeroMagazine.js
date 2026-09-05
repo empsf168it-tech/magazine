@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-export function createThreeHeroMagazine(containerEl, coverImgPath = '/assets/vanta_cover_024.png') {
+export function createThreeHeroMagazine(containerEl, coverImgPath = 'assets/vanta_cover_024.png') {
   if (!containerEl) return null;
 
   // Clear existing canvas if any
