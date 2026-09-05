@@ -1,7 +1,10 @@
 import { ISSUES } from '../data/issues.js';
 import gsap from 'gsap';
+import { getAssetUrl } from '../utils/assets.js';
 
 export function renderArchiveView(containerEl, onNavigate, showToast) {
+  const boxsetImg1 = getAssetUrl('assets/vanta_cover_023.png');
+  const boxsetImg2 = getAssetUrl('assets/vanta_cover_024.png');
   let activeFilter = 'ALL';
 
   function filterIssues(filter) {
@@ -145,8 +148,8 @@ export function renderArchiveView(containerEl, onNavigate, showToast) {
         </div>
 
         <div class="boxset-visual-preview">
-          <img src="assets/vanta_cover_023.png" alt="Boxset Preview" class="boxset-img-1" />
-          <img src="assets/vanta_cover_024.png" alt="Boxset Preview" class="boxset-img-2" />
+          <img src="${boxsetImg1}" alt="Boxset Preview" class="boxset-img-1" />
+          <img src="${boxsetImg2}" alt="Boxset Preview" class="boxset-img-2" />
         </div>
       </div>
     </section>

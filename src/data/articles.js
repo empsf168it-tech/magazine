@@ -1,3 +1,5 @@
+import { getAssetUrl } from '../utils/assets.js';
+
 export const ARTICLES = [
   {
     id: "why-everything-is-becoming-design",
@@ -14,7 +16,7 @@ export const ARTICLES = [
     date: "SEPTEMBER 2026",
     readTime: "8 MIN READ",
     featured: true,
-    coverImage: "assets/vanta_featured_story.png",
+    coverImage: getAssetUrl("assets/vanta_featured_story.png"),
     secondaryImage: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     excerpt: "We no longer inhabit spaces; we inhabit intentions. From the algorithms that order our mornings to the physical geometry of urban sanctuaries, design is no longer an cosmetic layer—it is the operating system of human consciousness.",
     pullQuote: "Design is no longer an aesthetic luxury. It is the language through which humanity negotiates its relationship with complexity.",
@@ -151,7 +153,7 @@ export const ARTICLES = [
     date: "JULY 2026",
     readTime: "5 MIN READ",
     featured: false,
-    coverImage: "assets/vanta_cover_023.png",
+    coverImage: getAssetUrl("assets/vanta_cover_023.png"),
     secondaryImage: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=80",
     excerpt: "Dark monochromatic palettes, structured metallic mesh, and dynamic fluid drapery dominate Paris and Milan, proving that elegance is timeless resilience.",
     pullQuote: "Fashion is armor for the soul in a world of constant motion.",

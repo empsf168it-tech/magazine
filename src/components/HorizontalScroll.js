@@ -1,5 +1,6 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { getAssetUrl } from '../utils/assets.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,7 +20,7 @@ export function renderHorizontalScroll(containerEl, onOpenArticle) {
       title: "PARIS — OBSIDIAN & GOLD SILHOUETTES",
       category: "FASHION",
       location: "FRANCE",
-      image: "assets/vanta_cover_023.png",
+      image: getAssetUrl("assets/vanta_cover_023.png"),
       number: "02",
       excerpt: "Avant-garde haute couture merging 3D printed cybernetic textiles with traditional embroidery."
     },

@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { getAssetUrl } from '../utils/assets.js';
 
 export function createThreeHeroMagazine(containerEl, coverImgPath = 'assets/vanta_cover_024.png') {
   if (!containerEl) return null;
@@ -23,7 +24,7 @@ export function createThreeHeroMagazine(containerEl, coverImgPath = 'assets/vant
 
   // 2. Textures Creation
   const textureLoader = new THREE.TextureLoader();
-  const frontTexture = textureLoader.load(coverImgPath);
+  const frontTexture = textureLoader.load(getAssetUrl(coverImgPath));
   frontTexture.colorSpace = THREE.SRGBColorSpace;
 
   // Helper canvas for Spine & Pages textures

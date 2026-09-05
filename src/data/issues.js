@@ -1,3 +1,5 @@
+import { getAssetUrl } from '../utils/assets.js';
+
 export const ISSUES = [
   {
     id: "issue-024",
@@ -5,7 +7,7 @@ export const ISSUES = [
     title: "THE HUMAN FUTURE",
     subtitle: "Stories, people and ideas shaping the world around us.",
     date: "SEPTEMBER 2026",
-    coverImage: "assets/vanta_cover_024.png",
+    coverImage: getAssetUrl("assets/vanta_cover_024.png"),
     pages: 184,
     curator: "Elena Vance",
     theme: "Dark Obsidian & Warm Gold",
@@ -24,7 +26,7 @@ export const ISSUES = [
     title: "AESTHETIC SINGULARITY",
     subtitle: "When artificial intelligence meets human creative mastery.",
     date: "JUNE 2026",
-    coverImage: "assets/vanta_cover_023.png",
+    coverImage: getAssetUrl("assets/vanta_cover_023.png"),
     pages: 168,
     curator: "Dr. Julian Sterling",
     theme: "Gold Glass & Onyx",
